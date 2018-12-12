@@ -8,23 +8,24 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Podpora neziskovych organizacich a rodin v IT oblasti</title>
+    <title>Podpora neziskovych organizacich a potřebnýchebných rodin v IT oblasti</title>
     <link rel="stylesheet" type="text/css" href="css/css.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body>
 
 <div id="header">
-
+    <div id="logo-help"> <img src="img/enter%20help.png"/></div>
     <div id="intro">
-        <div id="logo"></div>
-        <span id="up">Jmenuji se Petr Pokorný, a jako dobrovolník u místní charity, jsem zjistil že, i malá podpora,může být velkou pomocí.<br/>
-              S podporou chráněné dílny Duko, s.r.o. Vám nabízím své zkušenosti</span>
+        <div id="title"> Lyosoft.cz posporuje motto <br/> I malá pomoc může být velkou podporou.</div>
     </div>
 </div>
-
+<div id="clear"></div>
 
 <div id="main">
+        <span id="up">Jmenuji se Petr Pokorný, a jako dobrovolník u místní charity, jsem zjistil že, i malá podpora,může být velkou pomocí.<br/>
+              S podporou chráněné dílny Duko, s.r.o. Vám nabízím své zkušenosti</span>
+
     <ul>
         <li> řešíte problém v oblasti HW a SW</li>
         <li> je Váš počítač zaneseny, má chybové hlášky</li>
@@ -43,7 +44,7 @@
 
 
 </div>
-
+<div id="logo-silluet"> <img src="img/silluet.png"/></div>
 <div id="footer">
     <a href="http:\\www.lyosoft.cz" target="_self">Lyosoft.cz</a> 2018 <span> s podporou <a href="" target="_blank">Duko s.r.o.</a> <a
         href="" target="_blank">Lexfin s.r.o.</a></span>
