@@ -1,19 +1,40 @@
 @font-face {
     font-family: 'MyWebFont';
-    url('misc/nyala.ttf') format('truetype');
+url('misc/nyala.ttf') format('truetype');
 }
 body {
-    font-family: MyWebFont, sans-serif;
+    font-family: MyWebFont;
     background-color:lightblue
 }
-#intro{
+#title {
     text-align:center;
-    font-size:40px;
     color:white;
-    font-weight:bold;
+    font-size:22px;
 }
-#logo-help{ float: left;position: absolute;top:5;left:5}
-#logo-silluet{ float: right;position: absolute;bottom:0;right:0}
+#title span {
+    font-size:30px;
+}
+
+#title #duko {
+    color:orange;
+}
+
+#title #lyosoft {
+    color:green;
+}
+
+#title #charita {
+    color:coral;
+}
+
+#title #motto {
+    padding:10px;
+    font-size:40px;
+    color:yellow;
+}
+
+#logo-help{ float: left;position: absolute;top:5px;left:5px}
+#logo-silluet{ float: right;position: absolute;bottom:40px;right:0}
 
 
 #clear {clear:both;}
@@ -21,7 +42,7 @@ body {
 #main {
     position:absolute;
     top: 50%;
-    left: 41%;
+    left: 45%;
     padding:10px;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
     margin-left: -15em; /*set to a negative number 1/2 of your width*/
@@ -29,25 +50,35 @@ body {
     background-color: lightgreen;
 }
 
-#main ul {
-    position:relative;
-    left:20%;
-    text-align: left;
+#main #up {
+    margin-top:10px;
+    text-align:center;
+    width:500px;
+    margin-left:25px;
 }
 #main ul li {
     padding: 0 8px;
 }
+#main #title{
+    font-weight:bold;
+}
 
-#dostupnost{ text-align:center}
+div#main div#dostupnost{
+    margin-top:20px;
+    text-align:center;
+    background-color:#ede671;
+}
 
 #text span#ico {font-size: 24px}
 #footer{
+    clear: both;
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     width: 100%;
     height: 50px;
     text-align:center;
     margin:15px 0;
+    background-color:#ede671;
 }
 
-#footer span{margin-left: 25px  }
+#footer span{margin-left: 25px;}
