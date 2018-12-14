@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Podpora neziskovych organizacich a potřebnýchebných rodin v IT oblasti</title>
+    <title>Podpora v IT oblasti pro Třebíč</title>
     <link rel="stylesheet" type="text/css" href="css/css.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
@@ -23,7 +23,7 @@
 <div id="clear"></div>
 
 <div id="main">
-    <div id="up">Jmenuji se "Lyo" Petr Pokorný, mámm 20 letou praxi v oblasti IT, převážně jako správce sítí a Java programátor, rozhodl jsem se nabídnout Vám své zkušenosti jako konzultant v oblasti IT.</div>
+    <div id="up">Jmenuji se "Lyo" Petr Pokorný, mám několikaletou letou praxi v oblasti IT, převážně jako správce sítí a Java programátor, rozhodl jsem se nabídnout Vám své zkušenosti jako konzultant v oblasti IT.</div>
 
     <span class="title"> řešíte problém v oblasti HW a SW</span>
     <ul>
@@ -39,11 +39,12 @@
         <li>poradit v oblasti zviditelnění na internetu </li>
         <li>vytvořením webových stránek</li>
     </ul>
-    <span class="title">či jen probrat Vaší situaci a zkusit najít vhodnou firmu pro Vaše řešení</span>
+    <span class="title">či jen probrat Vaší situaci a zkusit najít vhodnou firmu pro Vaše řešení</span> <br/>
+    <span class="title">odměnou za službu je 50 kč, pokud byla věc dořešena</span>
 
     <div id="dostupnost">
         Věci potřebující osobní přítomnost jsem schopen zajistit jen pro Třebíč, děkuji za pochopení<br/>
-        <span id="down"> <span id="ico" class="fa fa-envelope-o"> </span> <a href="mailto:info@lyosoft.cz">kontaktujte mě</a> ,odpovím Vám co nejdříve a pokusím se najít vhodné řešení</span>
+        <span id="down"> <span id="ico" class="fa fa-envelope-o"> </span> <span class="kontakt">info@lyosoft.cz </span> <br/> zanechte mi jak Vás mohu kontaktovat <span class="kontakt">mail, mobil, skype</span> , odpovím Vám co nejdříve a pokusím se najít vhodné řešení</span>
     </div>
 
 </div>
@@ -51,8 +52,8 @@
 
 <div id="logo-silluet"> <img src="img/silluet.png"/></div>
 <div id="footer">
-    <a href="http:\\www.lyosoft.cz" target="_self">Lyosoft.cz</a> 2018 <span> s podporou <a href="" target="_blank">Duko s.r.o.</a> <a
-        href="" target="_blank">Lexfin s.r.o.</a></span>
+    &#169; 2018 <a href="http://www.lyosoft.cz" target="_self">Lyosoft.cz</a> <a href="https://nahradniplneni.duko.eu/" target="_blank">Duko s.r.o.</a>
+    <span id="liter"> přispívám jako <a href="https://www.liter.cz/autor-vse-128579">Lyo</a> na <a  href='https://www.liter.cz' title="Básně, povídky - Liter.cz"><img src="https://www.liter.cz/img/reklama/litercz_88x31.gif" border="1" alt="Básně, povídky - Liter.cz" /></a></span>
 </div>
 </body>
 </html>
