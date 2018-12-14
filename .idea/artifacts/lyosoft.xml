@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="web_lyosoftcz:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/web_lyosoftcz_war_exploded</output-path>
-    <root id="root">
+  <artifact type="war" name="lyosoft">
+    <output-path>$PROJECT_DIR$/out/artifacts/</output-path>
+    <root id="archive" name="lyosoft.war">
       <element id="javaee-facet-resources" facet="web_lyosoftcz/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
