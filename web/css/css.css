@@ -7,8 +7,14 @@ body {
     background-color:lightblue
 }
 
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 #header #intro #logo-help {
-    float: left;
+    position: absolute;
+    top: 5px;;
     padding: 0 50px 0 10px
 }
 
@@ -18,9 +24,10 @@ body {
 
 #header #intro #title {
     margin-top: 50px;
-    float: left;
+    margin-left: 150px;
     color:white;
     font-size:22px;
+    text-align: center;
 }
 #title span {
     font-size:30px;
@@ -45,7 +52,16 @@ body {
     text-align: center;
 }
 
-#logo-silluet{ float: right;position: absolute;bottom:50px;right:0}
+#logo-silluet {
+    float: right;
+    position: absolute;
+    bottom: 65px;
+    right: 0;
+}
+
+#logo-silluet img {
+    height: 120px
+}
 
 
 .clear {
@@ -54,12 +70,11 @@ body {
 }
 
 #main {
-    position:absolute;
-    top: 40%;
-    left: 37%;
-    padding:10px;
-    margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+
+    position: relative;
+    top: 200px;
+    left: 27%;
+    width: 800px;
     border: 1px solid #ccc;
     background-color: lightgreen;
 }
