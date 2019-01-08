@@ -6,8 +6,19 @@ body {
     font-family: MyWebFont;
     background-color:lightblue
 }
-#title {
-    text-align:center;
+
+#header #intro #logo-help {
+    float: left;
+    padding: 0 50px 0 10px
+}
+
+#header #intro #logo-help img {
+    height: 200px
+}
+
+#header #intro #title {
+    margin-top: 50px;
+    float: left;
     color:white;
     font-size:22px;
 }
@@ -31,18 +42,21 @@ body {
     padding:10px;
     font-size:40px;
     color:yellow;
+    text-align: center;
 }
 
-#logo-help{ float: left;position: absolute;top:5px;left:5px}
 #logo-silluet{ float: right;position: absolute;bottom:50px;right:0}
 
 
-#clear {clear:both;}
+.clear {
+    clear: both;
+    margin-bottom: -24px
+}
 
 #main {
     position:absolute;
-    top: 50%;
-    left: 45%;
+    top: 40%;
+    left: 37%;
     padding:10px;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
     margin-left: -15em; /*set to a negative number 1/2 of your width*/
@@ -50,43 +64,57 @@ body {
     background-color: lightgreen;
 }
 
-#main #up {
+#main #logo-clean {
+    float: left;
+}
+
+#main #logo-clean img {
+    height: 400px
+}
+
+
+#main #text #up {
     margin:10px 0 20px 0;
     text-align:center;
     width:700px;
     margin-left:40px
 
 }
-#main ul {
+
+#main #text ul {
     margin-left:40px
 }
 
-#main span {
+#main #text span {
     font-weight:bold;
     margin-left:70px;
 }
-#main ul li {
+
+#main #text ul li {
     padding: 0 8px;
 }
-#main #title{
+
+#main #text .b {
     font-weight:bold;
+    margin: 0;
 }
 
 
-div#main div#dostupnost{
+div#main #text div#dostupnost {
     padding: 7px;
     margin-top:20px;
     text-align:center;
     background-color:#ede671;
 }
 
-div#main div#dostupnost span{
+div#main #text div#dostupnost span {
     font-style:normal;
     font-weight: normal;
     font-size: 17px;
     margin:0;
 }
-div#main div#dostupnost span.kontakt {
+
+div#main #text div#dostupnost span.kontakt {
     font-style:italic;
     font-weight: bold;
     font-size: 17px;
@@ -107,3 +135,7 @@ div#main div#dostupnost span.kontakt {
 #footer a{padding:0 25px;}
 #liter {font-style:italic; position:relative;right:25px; float:right;width:200px;}
 #liter a { padding:0}
+
+#liter a img {
+    display: block !important;
+}
