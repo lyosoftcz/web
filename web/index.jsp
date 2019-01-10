@@ -30,7 +30,7 @@
 <div id="main">
     <div id="logo-clean"><img src="img/PC-help-m.png"/></div>
     <div id="text">
-        <div id="up">Jmenuji se "Lyo" Petr Pokorný, mám několikaletou letou praxi v oblasti IT, převážně jako správce
+        <div id="up">Jmenuji se "Lyo" Petr Pokorný, mám několikaletou praxi v oblasti IT, převážně jako správce
             sítí a Java programátor, rozhodl jsem se nabídnout Vám své zkušenosti jako konzultant v oblasti IT.
         </div>
 
